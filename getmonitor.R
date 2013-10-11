@@ -19,9 +19,8 @@ getmonitor <- function(id, directory, summary = FALSE ) {
     ## 'summarize' is a logical indicating whether a summary of
     ## the data should be printed to the console; the default is
     ## FALSE
-    if( summary == TRUE ) {
+    if( summary == TRUE )
       print(summary(data))
-    }
 
     return(data)
     ## Your code here
